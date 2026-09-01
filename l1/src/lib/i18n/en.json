@@ -1,0 +1,187 @@
+{
+  "appName": "Kabadiwala Connect",
+  "tagline": "Recycling made fair",
+  "nav": {
+    "home": "Home",
+    "newLot": "New Lot",
+    "prices": "Prices",
+    "ledger": "Ledger",
+    "safety": "Safety"
+  },
+  "common": {
+    "loading": "Loading…",
+    "weight": "Weight",
+    "recycler": "Recycler",
+    "material": "Material",
+    "status": "Status",
+    "ref": "Ref",
+    "kg": "kg",
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "paid": "Paid",
+    "cancel": "Cancel",
+    "back": "Back",
+    "listen": "Listen",
+    "close": "Close",
+    "value": "Value",
+    "optional": "optional"
+  },
+  "enter": {
+    "welcome": "Welcome, Collector",
+    "subtitle": "Choose your language and enter your name to get started. Your name links your lots to your ledger.",
+    "yourName": "Your name",
+    "continue": "Continue",
+    "operatingLocation": "Working area (e.g. Andheri, Mumbai)",
+    "operatingLocationPlaceholder": "General area you operate in"
+  },
+  "home": {
+    "hi": "Hi, {name}",
+    "welcome": "Welcome",
+    "subtitle": "Create a lot, pick a recycler, and get paid.",
+    "heroKicker": "Your e-waste, fair price",
+    "heroTitle": "Turn scrap into value",
+    "heroCta": "Create a lot",
+    "heroSub": "Capture, get a fair rate, hand over with GPS proof — get paid in cash.",
+    "statLots": "Lots",
+    "statValue": "Est. value",
+    "statPending": "Awaiting payout",
+    "createLot": "Create a lot",
+    "createLotDesc": "Add material & get a value",
+    "priceBoard": "Price board",
+    "priceBoardDesc": "See rates per category",
+    "myLedger": "My ledger",
+    "myLedgerDesc": "Track your transactions",
+    "safety": "Safety guidance",
+    "safetyDesc": "How to handle e-waste safely",
+    "trace": "Traceability",
+    "traceDesc": "Track a lot's full journey"
+  },
+  "newLot": {
+    "title": "Create a new lot",
+    "photo": "1. Photo",
+    "change": "Change",
+    "category": "2. Category",
+    "subCategory": "Sub-category",
+    "condition": "Condition",
+    "sourceType": "Source type",
+    "description": "Description",
+    "descriptionPlaceholder": "Optional notes, e.g. '10 old phone boards'",
+    "weight": "3. Weight (kg)",
+    "estimated": "Estimated value ({rate} × {weight} kg)",
+    "submit": "Create lot & find recycler",
+    "saving": "Saving…",
+    "selectCategory": "Please select a category",
+    "noRate": "—"
+  },
+  "priceBoard": {
+    "title": "Price Board",
+    "perKg": "/kg",
+    "empty": "No prices available.",
+    "up": "up",
+    "down": "down",
+    "stable": "stable",
+    "trend": "Trend",
+    "range": "Market range",
+    "audio": "Hear price"
+  },
+  "recyclers": {
+    "title": "Choose a recycler",
+    "lotSummary": "Lot: {category} · {weight} kg · ₹{value}",
+    "offers": "Offers ₹{rate}/kg",
+    "creating": "Creating handover…",
+    "noLot": "No lot selected. Please create a lot first.",
+    "rank": "Rank #{n}",
+    "pickup": "Pickup available",
+    "noPickup": "No pickup",
+    "serviceArea": "Service area: {area}",
+    "location": "Located at {loc}",
+    "contact": "Call {contact}",
+    "registration": "Reg. {reg}",
+    "score": "Score {score}",
+    "authorized": "Authorized",
+    "authPending": "Pending",
+    "authExpired": "Expired"
+  },
+  "handover": {
+    "title": "Handover created!",
+    "subtitle": "Your handover request has been sent to the recycler.",
+    "reference": "Reference number",
+    "estimatedValue": "Estimated value",
+    "viewLedger": "View my ledger",
+    "gps": "GPS location captured",
+    "gpsUnavailable": "GPS unavailable — location not captured",
+    "refNumber": "Ref: {ref}"
+  },
+  "ledger": {
+    "title": "Earnings Ledger",
+    "empty": "No transactions yet.",
+    "estimatedValue": "Quoted value",
+    "finalPrice": "Final price",
+    "paymentStatus": "Payment",
+    "weight": "Weight",
+    "recycler": "Recycler",
+    "ref": "Ref",
+    "status": "Status",
+    "trace": "Trace",
+    "notPaid": "Not paid"
+  },
+  "inbox": {
+    "title": "Recycler Inbox",
+    "pending": "Pending handovers",
+    "empty": "No pending handovers. Check back soon.",
+    "estimatedValue": "Estimated value",
+    "weight": "Weight",
+    "collector": "Collector",
+    "confirm": "Confirm Received",
+    "confirming": "Confirming…",
+    "finalPrice": "Final price (₹)",
+    "finalPriceHint": "Leave as quoted if unchanged. Cash is the default."
+  },
+  "trace": {
+    "title": "Traceability",
+    "empty": "No traceability records yet.",
+    "handoverRef": "Handover reference",
+    "stages": "Journey",
+    "stageCreated": "Created",
+    "stageMatched": "Matched",
+    "stageHandedOver": "Handed over",
+    "stageConfirmed": "Confirmed",
+    "gps": "GPS",
+    "weight": "Weight",
+    "notCaptured": "Not captured",
+    "recyclerConfirmed": "Recycler confirmed"
+  },
+  "safety": {
+    "title": "Safety Guidance",
+    "subtitle": "Handle e-waste safely. Tap a card to hear the tip.",
+    "burning": {
+      "title": "No open-air burning",
+      "body": "Never burn e-waste in the open. Burning releases toxic smoke and heavy metals into the air."
+    },
+    "acid": {
+      "title": "No acid leaching",
+      "body": "Never use acid to extract metals from boards. Acid bath exposure harms your skin, lungs, and the environment."
+    },
+    "battery": {
+      "title": "Handle batteries safely",
+      "body": "Do not crush or pierce batteries. They can leak, heat up, or catch fire. Keep them separate and dry."
+    },
+    "crt": {
+      "title": "Handle CRTs with care",
+      "body": "CRT glass can implode and contains lead. Never drop or break them; they are very heavy and fragile."
+    },
+    "listen": "Hear tip"
+  },
+  "photo": {
+    "open": "Open camera",
+    "capture": "Capture",
+    "retake": "Retake",
+    "use": "Use photo",
+    "error": "Camera unavailable. Please check permissions or use a photo."
+  },
+  "status": {
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "paid": "Paid"
+  }
+}
